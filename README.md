@@ -18,7 +18,7 @@ Este projeto foi feito para eu aperfeiçoar meu conhecimento e habilidades em HT
 - Responsividade: O portfólio é totalmente responsivo, garantindo uma experiência consistente em diferentes dispositivos e tamanhos de tela.
 - Cores: O portfólio conta com uma opção de troca de cor para garantir a maior acessibilidade visual para preferência de cada pessoa.
 
-#### Portfolio Pessoal feito em:
+#### Portfolio Pessoal - Projeto 2 feito em:
 - HTML
 - CSS
 - JS
