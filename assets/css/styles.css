@@ -99,6 +99,10 @@ img {
   padding-block: 6rem;
 }
 
+.about__container{
+  padding-top: 125px;
+}
+
 .section__title{
   font-size: var(--h1-font-size);
   font-weight: var(--weight-400);
