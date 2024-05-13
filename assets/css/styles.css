@@ -387,11 +387,20 @@ img {
 }
 
 .about__social-links{
+  display: flex; /* Adicionado */
+  column-gap: 1.25rem;
+}
+
+.about__social-links::before{
+  display: none; /* Adicionado */
+}
+
+.about__social-links a { /* Adicionado */
   color: var(--text-color);
   transition: all 0.3s ease;
 }
 
-.about__social-links:hover{
+.about__social-links a:hover { /* Adicionado */
   color: var(--first-color);
 }
 
