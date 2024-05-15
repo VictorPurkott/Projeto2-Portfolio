@@ -25,7 +25,7 @@ Este projeto foi feito para eu aperfeiçoar meu conhecimento e habilidades em HT
 
 #### Autor e Website:
 - ❄️ Victor Gabriel Purkott Coelho
-- 🔗 www.jaensch.vercel.app
+- 🔗 http://jaensch.vercel.app
 
 Sinta-se à vontade para abrir problemas se encontrar bugs ou tiver sugestões para melhorias. Pull requests são bem-vindos. Para alterações importantes, por favor, abra um problema primeiro para discutir o que você gostaria de mudar. Caso queira ver o meu primeiro projeto, é só entrar no meu perfil e ir na aba de repositorio, você é muito bem-vindo!
 
