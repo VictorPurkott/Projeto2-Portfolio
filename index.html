@@ -4,6 +4,9 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
+    <!--=============== JS PORTFOLIO ===============-->
+    <script src="https://cdn.jsdelivr.net/npm/mixitup@3/dist/mixitup.min.js"></script>
+
     <!--=============== FAVICON ICONS ===============-->
     <link rel="icon" href="assets/img/Girassol.png" type="image/x-icon">
     <link rel="shortcut icon" href="assets/img/Girassol.png" type="image/x-icon">
@@ -360,10 +363,277 @@
       </section>
 
       <!--==================== SKILLS ====================-->
-      <section class="skills"></section>
+      <section class="skills section">
+
+        <h2 class="section__title title-center" data-title="Meu Talento">
+          Habilidades Profissionais
+        </h2>
+
+        <div class="skills__container container grid">
+
+          <div class="skills__item">
+            <div class="skills__titles">
+              <h3 class="skills__name">Lábia</h3>
+              <span class="skills__no">85 %</span>
+            </div>
+
+            <p class="skill__description">
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+              Aut nihil, iusto esse qui sint ratione totam.
+            </p>
+
+            <div class="skills__bar">
+              <div class="skills__percentage" style="width: 85%;">
+                <span></span>
+              </div>
+            </div>
+          </div>
+
+          <div class="skills__item">
+            <div class="skills__titles">
+              <h3 class="skills__name">Trabalho em Equipe</h3>
+              <span class="skills__no">90 %</span>
+            </div>
+
+            <p class="skill__description">
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+              Aut nihil, iusto esse qui sint ratione totam.
+            </p>
+
+            <div class="skills__bar">
+              <div class="skills__percentage" style="width: 90%;">
+                <span></span>
+              </div>
+            </div>
+          </div>
+
+          <div class="skills__item">
+            <div class="skills__titles">
+              <h3 class="skills__name">Análise de Dados</h3>
+              <span class="skills__no">75 %</span>
+            </div>
+
+            <p class="skill__description">
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+              Aut nihil, iusto esse qui sint ratione totam.
+            </p>
+
+            <div class="skills__bar">
+              <div class="skills__percentage" style="width: 75%;">
+                <span></span>
+              </div>
+            </div>
+          </div>
+
+          <div class="skills__item">
+            <div class="skills__titles">
+              <h3 class="skills__name">Atuação Estratégica</h3>
+              <span class="skills__no">85 %</span>
+            </div>
+
+            <p class="skill__description">
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+              Aut nihil, iusto esse qui sint ratione totam.
+            </p>
+
+            <div class="skills__bar">
+              <div class="skills__percentage" style="width: 85%;">
+                <span></span>
+              </div>
+            </div>
+          </div>
+
+          <div class="skills__item">
+            <div class="skills__titles">
+              <h3 class="skills__name">Planejamento</h3>
+              <span class="skills__no">100 %</span>
+            </div>
+
+            <p class="skill__description">
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+              Aut nihil, iusto esse qui sint ratione totam.
+            </p>
+
+            <div class="skills__bar">
+              <div class="skills__percentage" style="width: 100%;">
+                <span></span>
+              </div>
+            </div>
+          </div>
+
+          <div class="skills__item">
+            <div class="skills__titles">
+              <h3 class="skills__name">Comunicação Clara</h3>
+              <span class="skills__no">95 %</span>
+            </div>
+
+            <p class="skill__description">
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+              Aut nihil, iusto esse qui sint ratione totam.
+            </p>
+
+            <div class="skills__bar">
+              <div class="skills__percentage" style="width: 95%;">
+                <span></span>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+      </section>
 
       <!--==================== PORTFOLIO ====================-->
-      <section class="works" id="works"></section>
+      <section class="works section" id="work">
+        <h2 class="section__title title-center" data-title="Meu Portfolio">Meus Portfolios</h2>
+
+        <div class="work__filters">
+            <span class="work__item active-work" data-filter="all">Todos</span>
+            <span class="work__item" data-filter=".web">Web</span>
+            <span class="work__item" data-filter=".app">App</span>
+            <span class="work__item" data-filter=".design">Design</span>
+        </div>
+
+        <div class="work__container container grid">
+
+            <div class="work__card mix web">
+                <img src="assets/img/project-img-1.jpg" alt="Trabalho 1 - Imagem">
+                <h3 class="work__title">Web Design</h3>
+                <span class="work__button">Demo
+                    <i class="fa-solid fa-caret-right work__button-icon"></i>
+                </span>
+                <div class="portfolio__item-details">
+                    <h3 class="details__title">The Services provide for Design</h3>
+                    <p class="details__description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat dolores necessitatibus aut praesentium laboriosam cupiditate incidunt.</p>
+                    <ul class="details__info">
+                        <li>Created - <span>4 Dec 2020</span></li>
+                        <li>Tecnhologies - <span>HTML CSS</span></li>
+                        <li>Role - <span>Front-End</span></li>
+                        <li>View - <span><a href="www.domain.com"></a></span></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="work__card mix app">
+                <img src="assets/img/project-img-2.jpg" alt="Trabalho 1 - Imagem">
+                <h3 class="work__title">App Design</h3>
+                <span class="work__button">Demo
+                    <i class="fa-solid fa-caret-right work__button-icon"></i>
+                </span>
+                <div class="portfolio__item-details">
+                    <h3 class="details__title">Mobile App landing design e app</h3>
+                    <p class="details__description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat dolores necessitatibus aut praesentium laboriosam cupiditate incidunt.</p>
+                    <ul class="details__info">
+                        <li>Created - <span>4 Dec 2020</span></li>
+                        <li>Tecnhologies - <span>HTML CSS</span></li>
+                        <li>Role - <span>Front-End</span></li>
+                        <li>View - <span><a href="www.domain.com"></a></span></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="work__card mix design">
+                <img src="assets/img/project-img-3.jpg" alt="Trabalho 1 - Imagem">
+                <h3 class="work__title">Brand Design</h3>
+                <span class="work__button">Demo
+                    <i class="fa-solid fa-caret-right work__button-icon"></i>
+                </span>
+                <div class="portfolio__item-details">
+                    <h3 class="details__title">Logo Design Creativy E Applications</h3>
+                    <p class="details__description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat dolores necessitatibus aut praesentium laboriosam cupiditate incidunt.</p>
+                    <ul class="details__info">
+                        <li>Created - <span>4 Dec 2020</span></li>
+                        <li>Tecnhologies - <span>HTML CSS</span></li>
+                        <li>Role - <span>Front-End</span></li>
+                        <li>View - <span><a href="www.domain.com"></a></span></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="work__card mix app">
+                <img src="assets/img/project-img-4.jpg" alt="Trabalho 1 - Imagem">
+                <h3 class="work__title">App Design</h3>
+                <span class="work__button">Demo
+                    <i class="fa-solid fa-caret-right work__button-icon"></i>
+                </span>
+                <div class="portfolio__item-details">
+                    <h3 class="details__title">Mobile App Landing design e Services</h3>
+                    <p class="details__description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat dolores necessitatibus aut praesentium laboriosam cupiditate incidunt.</p>
+                    <ul class="details__info">
+                        <li>Created - <span>4 Dec 2020</span></li>
+                        <li>Tecnhologies - <span>HTML CSS</span></li>
+                        <li>Role - <span>Front-End</span></li>
+                        <li>View - <span><a href="www.domain.com"></a></span></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="work__card mix web">
+                <img src="assets/img/project-img-5.jpg" alt="Trabalho 1 - Imagem">
+                <h3 class="work__title">Brand Design</h3>
+                <span class="work__button">Demo
+                    <i class="fa-solid fa-caret-right work__button-icon"></i>
+                </span>
+                <div class="portfolio__item-details">
+                    <h3 class="details__title">Design for Tecnogy e Services</h3>
+                    <p class="details__description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat dolores necessitatibus aut praesentium laboriosam cupiditate incidunt.</p>
+                    <ul class="details__info">
+                        <li>Created - <span>4 Dec 2020</span></li>
+                        <li>Tecnhologies - <span>HTML CSS</span></li>
+                        <li>Role - <span>Front-End</span></li>
+                        <li>View - <span><a href="www.domain.com"></a></span></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="work__card mix design">
+                <img src="assets/img/project-img-6.jpg" alt="Trabalho 1 - Imagem">
+                <h3 class="work__title">Web Design</h3>
+                <span class="work__button">Demo
+                    <i class="fa-solid fa-caret-right work__button-icon"></i>
+                </span>
+                <div class="portfolio__item-details">
+                    <h3 class="details__title">App for Tecnology E Services</h3>
+                    <p class="details__description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat dolores necessitatibus aut praesentium laboriosam cupiditate incidunt.</p>
+                    <ul class="details__info">
+                        <li>Created - <span>4 Dec 2020</span></li>
+                        <li>Tecnhologies - <span>HTML CSS</span></li>
+                        <li>Role - <span>Front-End</span></li>
+                        <li>View - <span><a href="www.domain.com"></a></span></li>
+                    </ul>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+      <!--======= PORTFOLIO POPUP =======-->
+
+      <div class="portfolio__popup">
+        <div class="portfolio__popup-inner">
+          <div class="portfolio__popup-content grid">
+            <span class="portfolio__popup-close"><i class="fa-solid fa-x"></i></span>
+            <div class="pp_thumbnail">
+              <img src="assets/img/project-img-1.jpg" alt="" class="portfolio__popup-img">
+            </div>
+            <div class="portfolio__popup-info">
+              <div class="portfolio__popup-subtitle">Featured - <span>Design</span></div>
+              <div class="portfolio__popup-body">
+                <h3 class="details__title">App for Tecnology E Services</h3>
+                    <p class="details__description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat dolores necessitatibus aut praesentium laboriosam cupiditate incidunt.</p>
+                    <ul class="details__info">
+                        <li>Created - <span>4 Dec 2020</span></li>
+                        <li>Tecnhologies - <span>HTML CSS</span></li>
+                        <li>Role - <span>Front-End</span></li>
+                        <li>View - <span><a href="www.domain.com">Link</a></span></li>
+                    </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      
 
       <!--==================== TESTIMONIALS ====================-->
       <section class="testimonials"></section>
@@ -374,5 +644,9 @@
 
     <!--==================== FOOTER ====================-->
     <footer class="footer"></footer>
+
+    <!--==================== JS FILES ====================-->
+    <script src="assets/js/main.js"></script>
+
   </body>
 </html>
